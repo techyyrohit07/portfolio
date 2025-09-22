@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body{
+    background-color: oklch(12.9% 0.042 264.695);
+    color: white;
+    min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
