@@ -4,20 +4,21 @@ function Projects(){
 
     const projects = [
     {
+      title: "Ride-booking Service",
+      description: "Designed and implemented a robust microservices architecture comprising three independent services using Node.js/Express and MongoDB, with inter-service communication enabled via RabbitMQ.",
+      link: "https://github.com/techyyrohit07/ride-booking-service",
+    },
+    {
       title: "URL-Shortener",
       description: "A secure URL shortening service built with Node.js, Express.js, and MongoDB. Features include unique link generation, seamless redirection, and JWT-based authentication with cookie sessions to ensure secure access.",
-      link: "",
+      link: "https://github.com/techyyrohit07/url-shortener-app",
     },
     {
       title: "Subscription Tracker",
       description: "A subscription management platform with a RESTful API for CRUD operations, JWT authentication, and MongoDB for scalable data storage. Includes rate limiting and bot protection using Arcjet, making it production-ready.",
-      link: "",
+      link: "https://github.com/techyyrohit07/subscription-tracker",
     },
-    {
-      title: "Task Manager",
-      description: "A lightweight task management app built with Node.js, Express.js, and MongoDB. Supports task creation, updating, and deletion with robust error handling and optimized database interactions through Mongoose.",
-      link: "",
-    },
+    
   ];
 
     return(
