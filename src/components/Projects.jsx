@@ -3,16 +3,17 @@ import ProjectCard from "../cards/ProjectCards";
 function Projects(){
 
     const projects = [
+     {
+      title: "Synk.io - Chat App",
+      description: "Developed a full-stack real-time chat application enabling instant one-to-one messaging between users. The app features secure authentication, live message updates, and a responsive interface, built with the MERN stack and powered by Socket.IO for seamless real-time communication.",
+      link: "https://github.com/techyyrohit07/synk-chat-app",
+    },
     {
       title: "Ride-booking Service",
       description: "Designed and implemented a robust microservices architecture comprising three independent services using Node.js/Express and MongoDB, with inter-service communication enabled via RabbitMQ.",
       link: "https://github.com/techyyrohit07/ride-booking-service",
     },
-    {
-      title: "URL-Shortener",
-      description: "A secure URL shortening service built with Node.js, Express.js, and MongoDB. Features include unique link generation, seamless redirection, and JWT-based authentication with cookie sessions to ensure secure access.",
-      link: "https://github.com/techyyrohit07/url-shortener-app",
-    },
+   
     {
       title: "Subscription Tracker",
       description: "A subscription management platform with a RESTful API for CRUD operations, JWT authentication, and MongoDB for scalable data storage. Includes rate limiting and bot protection using Arcjet, making it production-ready.",
